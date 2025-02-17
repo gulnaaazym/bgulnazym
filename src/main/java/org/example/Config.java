@@ -8,15 +8,5 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan("org.example")
 public class Config {
 
-    @Bean
-    public Book book() {
-        return new Book();
-    }
 
-    @Bean
-    public Library library(Book book) {
-        Library library = new Library();
-        library.setBook(book);
-        return library;
-    }
 }
