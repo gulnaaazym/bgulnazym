@@ -4,7 +4,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Book {
-    private String title = "Spring in Action";
+    private String title = "DUNE";
 
     public String getTitle() {
         return title;

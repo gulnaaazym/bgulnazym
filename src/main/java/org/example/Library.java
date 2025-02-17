@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Library {
-    private String name = "City Library";
+    private String name = "Library";
 
     @Autowired
     private Book book;
